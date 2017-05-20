@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="BjI-Lf-1sS">
+                                <rect key="frame" x="0.0" y="90" width="375" height="577"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="5" minimumInteritemSpacing="5" id="Qxb-x6-RqU">
+                                    <size key="itemSize" width="175" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="10" minY="10" maxX="10" maxY="10"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="audioCell" id="Wst-78-2eC" customClass="AudioCell">
+                                        <rect key="frame" x="10" y="10" width="175" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="175" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L0g-CE-w7n">
+                                                    <rect key="frame" x="5" y="7" width="36" height="36"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="36" id="15Q-Ep-bLe"/>
+                                                        <constraint firstAttribute="width" constant="36" id="fDM-kn-kKt"/>
+                                                    </constraints>
+                                                    <state key="normal" image="ic_favorite_border_white_48pt.png"/>
+                                                    <connections>
+                                                        <action selector="didTapFavorite:" destination="Wst-78-2eC" eventType="touchUpInside" id="vMg-1h-3y4"/>
+                                                    </connections>
+                                                </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Null deploy in Warmachine" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TcB-AB-Sse">
+                                                    <rect key="frame" x="51" y="0.0" width="111" height="50"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WAI-Ss-WxP">
+                                                    <rect key="frame" x="51" y="0.0" width="111" height="50"/>
+                                                    <connections>
+                                                        <action selector="didTapButton:" destination="Wst-78-2eC" eventType="touchUpInside" id="ILk-0d-1hG"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                        </view>
+                                        <color key="backgroundColor" red="0.77354133130000002" green="0.0038093707990000001" blue="0.18259558079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailingMargin" secondItem="TcB-AB-Sse" secondAttribute="trailing" constant="5" id="5mM-1Q-N69"/>
+                                            <constraint firstItem="TcB-AB-Sse" firstAttribute="leading" secondItem="L0g-CE-w7n" secondAttribute="trailing" constant="10" id="6vG-1p-fkD"/>
+                                            <constraint firstItem="TcB-AB-Sse" firstAttribute="centerY" secondItem="Wst-78-2eC" secondAttribute="centerY" id="9jK-nL-Nzd"/>
+                                            <constraint firstItem="TcB-AB-Sse" firstAttribute="height" secondItem="Wst-78-2eC" secondAttribute="height" id="DJW-YS-U6B"/>
+                                            <constraint firstItem="WAI-Ss-WxP" firstAttribute="centerY" secondItem="TcB-AB-Sse" secondAttribute="centerY" id="KTg-aP-cbz"/>
+                                            <constraint firstItem="L0g-CE-w7n" firstAttribute="centerY" secondItem="Wst-78-2eC" secondAttribute="centerY" id="Vlw-jL-kNx"/>
+                                            <constraint firstItem="L0g-CE-w7n" firstAttribute="leading" secondItem="Wst-78-2eC" secondAttribute="leading" constant="5" id="X3Y-Dm-jKr"/>
+                                            <constraint firstItem="WAI-Ss-WxP" firstAttribute="centerX" secondItem="TcB-AB-Sse" secondAttribute="centerX" id="m4N-NO-CID"/>
+                                            <constraint firstItem="WAI-Ss-WxP" firstAttribute="width" secondItem="TcB-AB-Sse" secondAttribute="width" id="rUG-IM-1gt"/>
+                                            <constraint firstItem="WAI-Ss-WxP" firstAttribute="height" secondItem="TcB-AB-Sse" secondAttribute="height" id="x7V-do-axT"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="favoriteButton" destination="L0g-CE-w7n" id="aia-kj-EQp"/>
+                                            <outlet property="mainLabel" destination="TcB-AB-Sse" id="rtW-zN-Ryf"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="PhJ-cR-gdC"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="FND-8I-eCI"/>
+                                </connections>
+                            </collectionView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vince.png" translatesAutoresizingMaskIntoConstraints="NO" id="hFz-Uf-3md">
+                                <rect key="frame" x="10" y="30" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="6iD-BU-KO9"/>
+                                    <constraint firstAttribute="width" constant="50" id="kxW-da-Vwe"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FAVS ONLY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wGn-ej-Q92">
+                                <rect key="frame" x="182" y="45" width="88" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="RK8-uh-GoL">
+                                <rect key="frame" x="290" y="40" width="51" height="31"/>
+                                <color key="tintColor" red="0.77354133129119873" green="0.0038093707989901304" blue="0.18259558081626892" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="onTintColor" red="0.26924514770507812" green="0.10037735849618912" blue="0.24561643600463867" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="thumbTintColor" red="0.77354133130000002" green="0.0038093707990000001" blue="0.18259558079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="toggleFavorites:" destination="BYZ-38-t0r" eventType="valueChanged" id="gtz-MT-MhM"/>
+                                </connections>
+                            </switch>
+                        </subviews>
+                        <color key="backgroundColor" red="0.04138057678937912" green="0.13399502635002136" blue="0.26685553789138794" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="hFz-Uf-3md" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="3Xj-eD-1J8"/>
+                            <constraint firstItem="hFz-Uf-3md" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="CC1-MC-WBU"/>
+                            <constraint firstItem="BjI-Lf-1sS" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="EN4-KB-ZoK"/>
+                            <constraint firstItem="RK8-uh-GoL" firstAttribute="leading" secondItem="wGn-ej-Q92" secondAttribute="trailing" constant="20" id="JlJ-ew-gIj"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="BjI-Lf-1sS" secondAttribute="bottom" id="Lve-qr-epf"/>
+                            <constraint firstItem="BjI-Lf-1sS" firstAttribute="top" secondItem="hFz-Uf-3md" secondAttribute="bottom" constant="10" id="U22-ZX-V39"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="RK8-uh-GoL" secondAttribute="trailing" constant="20" id="UAe-pt-NOw"/>
+                            <constraint firstItem="RK8-uh-GoL" firstAttribute="centerY" secondItem="wGn-ej-Q92" secondAttribute="centerY" id="WqS-ga-uxa"/>
+                            <constraint firstItem="BjI-Lf-1sS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gu9-HD-qIp"/>
+                            <constraint firstItem="wGn-ej-Q92" firstAttribute="centerY" secondItem="hFz-Uf-3md" secondAttribute="centerY" id="kWn-cE-VqC"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="audioCollection" destination="BjI-Lf-1sS" id="xgc-im-yRa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="38.23088455772114"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ic_favorite_border_white_48pt.png" width="48" height="48"/>
+        <image name="vince.png" width="192" height="192"/>
+    </resources>
+</document>

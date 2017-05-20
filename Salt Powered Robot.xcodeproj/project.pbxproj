@@ -1,0 +1,1079 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E00E72E51ECFE7E5002725CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E00E72E41ECFE7E5002725CA /* main.m */; };
+		E00E72E81ECFE7E5002725CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E00E72E71ECFE7E5002725CA /* AppDelegate.m */; };
+		E00E72EB1ECFE7E5002725CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E00E72EA1ECFE7E5002725CA /* ViewController.m */; };
+		E00E72EE1ECFE7E5002725CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E00E72EC1ECFE7E5002725CA /* Main.storyboard */; };
+		E00E72F01ECFE7E5002725CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E00E72EF1ECFE7E5002725CA /* Assets.xcassets */; };
+		E00E72F31ECFE7E5002725CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E00E72F11ECFE7E5002725CA /* LaunchScreen.storyboard */; };
+		E00E739B1ECFE812002725CA /* a40k.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E72FB1ECFE812002725CA /* a40k.wav */; };
+		E00E739C1ECFE812002725CA /* a247365.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E72FC1ECFE812002725CA /* a247365.wav */; };
+		E00E739D1ECFE812002725CA /* admititsbroken.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E72FD1ECFE812002725CA /* admititsbroken.wav */; };
+		E00E739E1ECFE812002725CA /* allbitchasses.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E72FE1ECFE812002725CA /* allbitchasses.wav */; };
+		E00E739F1ECFE812002725CA /* allfuckshit.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E72FF1ECFE812002725CA /* allfuckshit.wav */; };
+		E00E73A01ECFE812002725CA /* andhonestly.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73001ECFE812002725CA /* andhonestly.wav */; };
+		E00E73A11ECFE812002725CA /* answerthat.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73011ECFE812002725CA /* answerthat.wav */; };
+		E00E73A21ECFE812002725CA /* anthony.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73021ECFE812002725CA /* anthony.wav */; };
+		E00E73A31ECFE812002725CA /* armada.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73031ECFE812002725CA /* armada.wav */; };
+		E00E73A41ECFE812002725CA /* atackwing.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73041ECFE812002725CA /* atackwing.wav */; };
+		E00E73A51ECFE812002725CA /* becauseifocus.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73051ECFE812002725CA /* becauseifocus.wav */; };
+		E00E73A61ECFE812002725CA /* becauseofmyopinions.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73061ECFE812002725CA /* becauseofmyopinions.wav */; };
+		E00E73A71ECFE812002725CA /* beenawhile.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73071ECFE812002725CA /* beenawhile.wav */; };
+		E00E73A81ECFE812002725CA /* beingangry.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73081ECFE812002725CA /* beingangry.wav */; };
+		E00E73A91ECFE812002725CA /* bemenaboutit.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73091ECFE812002725CA /* bemenaboutit.wav */; };
+		E00E73AA1ECFE812002725CA /* bestimperialguard.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E730A1ECFE812002725CA /* bestimperialguard.wav */; };
+		E00E73AB1ECFE812002725CA /* bitchass.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E730B1ECFE812002725CA /* bitchass.wav */; };
+		E00E73AC1ECFE812002725CA /* blocksofpeasants.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E730C1ECFE812002725CA /* blocksofpeasants.wav */; };
+		E00E73AD1ECFE812002725CA /* calmthefuckdown.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E730D1ECFE812002725CA /* calmthefuckdown.wav */; };
+		E00E73AE1ECFE812002725CA /* cannotwin.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E730E1ECFE812002725CA /* cannotwin.wav */; };
+		E00E73AF1ECFE812002725CA /* chillthefuckout.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E730F1ECFE812002725CA /* chillthefuckout.wav */; };
+		E00E73B01ECFE812002725CA /* clearly.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73101ECFE812002725CA /* clearly.wav */; };
+		E00E73B11ECFE812002725CA /* comeafterabrokemf.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73111ECFE812002725CA /* comeafterabrokemf.wav */; };
+		E00E73B21ECFE812002725CA /* congradulations.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73121ECFE812002725CA /* congradulations.wav */; };
+		E00E73B31ECFE812002725CA /* didntcount.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73131ECFE812002725CA /* didntcount.wav */; };
+		E00E73B41ECFE812002725CA /* donthaveaproblem.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73141ECFE812002725CA /* donthaveaproblem.wav */; };
+		E00E73B51ECFE812002725CA /* droppods.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73151ECFE812002725CA /* droppods.wav */; };
+		E00E73B61ECFE812002725CA /* dumbfuckingmechanic.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73161ECFE812002725CA /* dumbfuckingmechanic.wav */; };
+		E00E73B71ECFE812002725CA /* everyplayereverylist.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73171ECFE812002725CA /* everyplayereverylist.wav */; };
+		E00E73B81ECFE812002725CA /* everywednesday.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73181ECFE812002725CA /* everywednesday.wav */; };
+		E00E73B91ECFE812002725CA /* excuse.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73191ECFE812002725CA /* excuse.wav */; };
+		E00E73BA1ECFE812002725CA /* factionloyal.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E731A1ECFE812002725CA /* factionloyal.wav */; };
+		E00E73BB1ECFE812002725CA /* failedaleadershipcheck.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E731B1ECFE812002725CA /* failedaleadershipcheck.wav */; };
+		E00E73BC1ECFE812002725CA /* fantasy.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E731C1ECFE812002725CA /* fantasy.wav */; };
+		E00E73BD1ECFE812002725CA /* fewpeoplehavedonethat.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E731D1ECFE812002725CA /* fewpeoplehavedonethat.wav */; };
+		E00E73BE1ECFE812002725CA /* fluff.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E731E1ECFE812002725CA /* fluff.wav */; };
+		E00E73BF1ECFE812002725CA /* fortifications.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E731F1ECFE812002725CA /* fortifications.wav */; };
+		E00E73C01ECFE812002725CA /* fuckinghobbit.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73201ECFE812002725CA /* fuckinghobbit.wav */; };
+		E00E73C11ECFE812002725CA /* fuckingmoron.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73211ECFE812002725CA /* fuckingmoron.wav */; };
+		E00E73C21ECFE812002725CA /* fuckingmurderedyou.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73221ECFE812002725CA /* fuckingmurderedyou.wav */; };
+		E00E73C31ECFE812002725CA /* fuckingstupid.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73231ECFE812002725CA /* fuckingstupid.wav */; };
+		E00E73C41ECFE812002725CA /* fuckoff.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73241ECFE812002725CA /* fuckoff.wav */; };
+		E00E73C51ECFE812002725CA /* fuckoff2.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73251ECFE812002725CA /* fuckoff2.wav */; };
+		E00E73C61ECFE812002725CA /* fuckshit.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73261ECFE812002725CA /* fuckshit.wav */; };
+		E00E73C71ECFE812002725CA /* fuckyou.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73271ECFE812002725CA /* fuckyou.wav */; };
+		E00E73C81ECFE812002725CA /* fuckyou3.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73281ECFE812002725CA /* fuckyou3.wav */; };
+		E00E73C91ECFE812002725CA /* fuckyou4.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73291ECFE812002725CA /* fuckyou4.wav */; };
+		E00E73CA1ECFE812002725CA /* fukingknowit.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E732A1ECFE812002725CA /* fukingknowit.wav */; };
+		E00E73CB1ECFE812002725CA /* getitforreal.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E732B1ECFE812002725CA /* getitforreal.wav */; };
+		E00E73CC1ECFE812002725CA /* giveafuck.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E732C1ECFE812002725CA /* giveafuck.wav */; };
+		E00E73CD1ECFE812002725CA /* havetobeabitch.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E732D1ECFE812002725CA /* havetobeabitch.wav */; };
+		E00E73CE1ECFE812002725CA /* haveyoueverwon.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E732E1ECFE812002725CA /* haveyoueverwon.wav */; };
+		E00E73CF1ECFE812002725CA /* haveyoueverwonbest.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E732F1ECFE812002725CA /* haveyoueverwonbest.wav */; };
+		E00E73D01ECFE812002725CA /* helldrakesaregood.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73301ECFE812002725CA /* helldrakesaregood.wav */; };
+		E00E73D11ECFE812002725CA /* howboutwetalkaboutthat.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73311ECFE812002725CA /* howboutwetalkaboutthat.wav */; };
+		E00E73D21ECFE812002725CA /* howiknowimright.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73321ECFE812002725CA /* howiknowimright.wav */; };
+		E00E73D31ECFE812002725CA /* howthefuck.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73331ECFE812002725CA /* howthefuck.wav */; };
+		E00E73D41ECFE812002725CA /* huhuhu.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73341ECFE812002725CA /* huhuhu.wav */; };
+		E00E73D51ECFE812002725CA /* iamsittingdown.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73351ECFE812002725CA /* iamsittingdown.wav */; };
+		E00E73D61ECFE812002725CA /* idontalkshit.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73361ECFE812002725CA /* idontalkshit.wav */; };
+		E00E73D71ECFE812002725CA /* idontlikeit.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73371ECFE812002725CA /* idontlikeit.wav */; };
+		E00E73D81ECFE812002725CA /* ifthereisnofight.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73381ECFE812002725CA /* ifthereisnofight.wav */; };
+		E00E73D91ECFE812002725CA /* ihaveagtwin.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73391ECFE812002725CA /* ihaveagtwin.wav */; };
+		E00E73DA1ECFE812002725CA /* iknowmore.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E733A1ECFE812002725CA /* iknowmore.wav */; };
+		E00E73DB1ECFE812002725CA /* iknowmore2.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E733B1ECFE812002725CA /* iknowmore2.wav */; };
+		E00E73DC1ECFE812002725CA /* iknowwhatitsliketowin.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E733C1ECFE812002725CA /* iknowwhatitsliketowin.wav */; };
+		E00E73DD1ECFE812002725CA /* imfine.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E733D1ECFE812002725CA /* imfine.wav */; };
+		E00E73DE1ECFE812002725CA /* imsure.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E733E1ECFE812002725CA /* imsure.wav */; };
+		E00E73DF1ECFE812002725CA /* inmyeyes.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E733F1ECFE812002725CA /* inmyeyes.wav */; };
+		E00E73E01ECFE812002725CA /* ithinkyouarewrong.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73401ECFE812002725CA /* ithinkyouarewrong.wav */; };
+		E00E73E11ECFE812002725CA /* itsnotaquestionforme.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73411ECFE812002725CA /* itsnotaquestionforme.wav */; };
+		E00E73E21ECFE812002725CA /* itwas6thed.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73421ECFE812002725CA /* itwas6thed.wav */; };
+		E00E73E31ECFE812002725CA /* iwon.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73431ECFE812002725CA /* iwon.wav */; };
+		E00E73E41ECFE812002725CA /* justchecking.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73441ECFE812002725CA /* justchecking.wav */; };
+		E00E73E51ECFE812002725CA /* justone.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73451ECFE812002725CA /* justone.wav */; };
+		E00E73E61ECFE812002725CA /* keepittofacts.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73461ECFE812002725CA /* keepittofacts.wav */; };
+		E00E73E71ECFE812002725CA /* lasttimeweplayed.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73471ECFE812002725CA /* lasttimeweplayed.wav */; };
+		E00E73E81ECFE812002725CA /* legendneverdies.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73481ECFE812002725CA /* legendneverdies.wav */; };
+		E00E73E91ECFE812002725CA /* likeyourargument.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73491ECFE812002725CA /* likeyourargument.wav */; };
+		E00E73EA1ECFE812002725CA /* literallynobody.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E734A1ECFE812002725CA /* literallynobody.wav */; };
+		E00E73EB1ECFE812002725CA /* loserforme.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E734B1ECFE812002725CA /* loserforme.wav */; };
+		E00E73EC1ECFE812002725CA /* makesyouafuckboi.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E734C1ECFE812002725CA /* makesyouafuckboi.wav */; };
+		E00E73ED1ECFE812002725CA /* makingbullshitup.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E734D1ECFE812002725CA /* makingbullshitup.wav */; };
+		E00E73EE1ECFE812002725CA /* mordhiem.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E734E1ECFE812002725CA /* mordhiem.wav */; };
+		E00E73EF1ECFE812002725CA /* morethanone.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E734F1ECFE812002725CA /* morethanone.wav */; };
+		E00E73F01ECFE812002725CA /* namethem.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73501ECFE812002725CA /* namethem.wav */; };
+		E00E73F11ECFE812002725CA /* necromunda.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73511ECFE812002725CA /* necromunda.wav */; };
+		E00E73F21ECFE812002725CA /* netlists.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73521ECFE812002725CA /* netlists.wav */; };
+		E00E73F31ECFE812002725CA /* neveronceseenit.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73531ECFE812002725CA /* neveronceseenit.wav */; };
+		E00E73F41ECFE812002725CA /* noneareanybetter.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73541ECFE812002725CA /* noneareanybetter.wav */; };
+		E00E73F51ECFE812002725CA /* nononono.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73551ECFE812002725CA /* nononono.wav */; };
+		E00E73F61ECFE812002725CA /* nonulldeployinwarmachine.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73561ECFE812002725CA /* nonulldeployinwarmachine.wav */; };
+		E00E73F71ECFE812002725CA /* nooneeverthanthat.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73571ECFE812002725CA /* nooneeverthanthat.wav */; };
+		E00E73F81ECFE812002725CA /* notbetterthanyou.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73581ECFE812002725CA /* notbetterthanyou.wav */; };
+		E00E73F91ECFE812002725CA /* notgoodenoughtowin.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73591ECFE812002725CA /* notgoodenoughtowin.wav */; };
+		E00E73FA1ECFE812002725CA /* notheyfuckingwerent.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E735A1ECFE812002725CA /* notheyfuckingwerent.wav */; };
+		E00E73FB1ECFE812002725CA /* nothingtodo.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E735B1ECFE812002725CA /* nothingtodo.wav */; };
+		E00E73FC1ECFE812002725CA /* notonesingleother.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E735C1ECFE812002725CA /* notonesingleother.wav */; };
+		E00E73FD1ECFE812002725CA /* notwrong.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E735D1ECFE812002725CA /* notwrong.wav */; };
+		E00E73FE1ECFE812002725CA /* onlywayhecanwingames.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E735E1ECFE812002725CA /* onlywayhecanwingames.wav */; };
+		E00E73FF1ECFE812002725CA /* overpowered.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E735F1ECFE812002725CA /* overpowered.wav */; };
+		E00E74001ECFE812002725CA /* overpowered2.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73601ECFE812002725CA /* overpowered2.wav */; };
+		E00E74011ECFE812002725CA /* overpoweredshit.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73611ECFE812002725CA /* overpoweredshit.wav */; };
+		E00E74021ECFE812002725CA /* ownaps4.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73621ECFE812002725CA /* ownaps4.wav */; };
+		E00E74031ECFE812002725CA /* paul.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73631ECFE812002725CA /* paul.wav */; };
+		E00E74041ECFE812002725CA /* pickyourbattles.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73641ECFE812002725CA /* pickyourbattles.wav */; };
+		E00E74051ECFE812002725CA /* playdroppods.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73651ECFE812002725CA /* playdroppods.wav */; };
+		E00E74061ECFE812002725CA /* playfantasy.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73661ECFE812002725CA /* playfantasy.wav */; };
+		E00E74071ECFE812002725CA /* playingempire.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73671ECFE812002725CA /* playingempire.wav */; };
+		E00E74081ECFE812002725CA /* playingwolfstar.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73681ECFE812002725CA /* playingwolfstar.wav */; };
+		E00E74091ECFE812002725CA /* playtau.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73691ECFE812002725CA /* playtau.wav */; };
+		E00E740A1ECFE812002725CA /* provemewrong.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E736A1ECFE812002725CA /* provemewrong.wav */; };
+		E00E740B1ECFE812002725CA /* realfuckingspecial.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E736B1ECFE812002725CA /* realfuckingspecial.wav */; };
+		E00E740C1ECFE812002725CA /* reallyarescrub.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E736C1ECFE812002725CA /* reallyarescrub.wav */; };
+		E00E740D1ECFE812002725CA /* realquick.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E736D1ECFE812002725CA /* realquick.wav */; };
+		E00E740E1ECFE812002725CA /* rtwin.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E736E1ECFE812002725CA /* rtwin.wav */; };
+		E00E740F1ECFE812002725CA /* running.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E736F1ECFE812002725CA /* running.wav */; };
+		E00E74101ECFE812002725CA /* saidit5times.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73701ECFE812002725CA /* saidit5times.wav */; };
+		E00E74111ECFE812002725CA /* saltisapartofmylife.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73711ECFE812002725CA /* saltisapartofmylife.wav */; };
+		E00E74121ECFE812002725CA /* shittylittlearmy.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73721ECFE812002725CA /* shittylittlearmy.wav */; };
+		E00E74131ECFE812002725CA /* shutthefuckup.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73731ECFE812002725CA /* shutthefuckup.wav */; };
+		E00E74141ECFE812002725CA /* shutthefuckup2.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73741ECFE812002725CA /* shutthefuckup2.wav */; };
+		E00E74151ECFE812002725CA /* soichoosenotto.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73751ECFE812002725CA /* soichoosenotto.wav */; };
+		E00E74161ECFE812002725CA /* sook.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73761ECFE812002725CA /* sook.wav */; };
+		E00E74171ECFE812002725CA /* supposedtobeimpressive.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73771ECFE812002725CA /* supposedtobeimpressive.wav */; };
+		E00E74181ECFE812002725CA /* sureyourerealhappy.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73781ECFE812002725CA /* sureyourerealhappy.wav */; };
+		E00E74191ECFE812002725CA /* talkingshit.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73791ECFE812002725CA /* talkingshit.wav */; };
+		E00E741A1ECFE812002725CA /* talkingshitabouttallpeople.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E737A1ECFE812002725CA /* talkingshitabouttallpeople.wav */; };
+		E00E741B1ECFE812002725CA /* tellmewhy.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E737B1ECFE812002725CA /* tellmewhy.wav */; };
+		E00E741C1ECFE812002725CA /* telltheworld.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E737C1ECFE812002725CA /* telltheworld.wav */; };
+		E00E741D1ECFE812002725CA /* tempestusscions.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E737D1ECFE812002725CA /* tempestusscions.wav */; };
+		E00E741E1ECFE812002725CA /* terianpieces.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E737E1ECFE812002725CA /* terianpieces.wav */; };
+		E00E741F1ECFE812002725CA /* thatsbasiclogic.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E737F1ECFE812002725CA /* thatsbasiclogic.wav */; };
+		E00E74201ECFE812002725CA /* thatsjustfuckingwrong.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73801ECFE812002725CA /* thatsjustfuckingwrong.wav */; };
+		E00E74211ECFE812002725CA /* thatsnotdefeat.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73811ECFE812002725CA /* thatsnotdefeat.wav */; };
+		E00E74221ECFE812002725CA /* thatwhatyouresaying.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73821ECFE812002725CA /* thatwhatyouresaying.wav */; };
+		E00E74231ECFE812002725CA /* theyneverdidit.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73831ECFE812002725CA /* theyneverdidit.wav */; };
+		E00E74241ECFE812002725CA /* thingsyournotfamiliar.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73841ECFE812002725CA /* thingsyournotfamiliar.wav */; };
+		E00E74251ECFE812002725CA /* thowsomenamesout.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73851ECFE812002725CA /* thowsomenamesout.wav */; };
+		E00E74261ECFE812002725CA /* underpowered.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73861ECFE812002725CA /* underpowered.wav */; };
+		E00E74271ECFE812002725CA /* wasntgonnagothere.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73871ECFE812002725CA /* wasntgonnagothere.wav */; };
+		E00E74281ECFE812002725CA /* watchingotherpeoplewin.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73881ECFE812002725CA /* watchingotherpeoplewin.wav */; };
+		E00E74291ECFE812002725CA /* welluhhhhhhhh.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73891ECFE812002725CA /* welluhhhhhhhh.wav */; };
+		E00E742A1ECFE812002725CA /* wetied.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E738A1ECFE812002725CA /* wetied.wav */; };
+		E00E742B1ECFE812002725CA /* whatargument.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E738B1ECFE812002725CA /* whatargument.wav */; };
+		E00E742C1ECFE812002725CA /* whatfaction.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E738C1ECFE812002725CA /* whatfaction.wav */; };
+		E00E742D1ECFE812002725CA /* whatlist.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E738D1ECFE812002725CA /* whatlist.wav */; };
+		E00E742E1ECFE812002725CA /* whatsitlikefromthebottom.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E738E1ECFE812002725CA /* whatsitlikefromthebottom.wav */; };
+		E00E742F1ECFE812002725CA /* wheredidyouendupontables.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E738F1ECFE812002725CA /* wheredidyouendupontables.wav */; };
+		E00E74301ECFE812002725CA /* whereithaseverexisted.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73901ECFE812002725CA /* whereithaseverexisted.wav */; };
+		E00E74311ECFE812002725CA /* whichones.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73911ECFE812002725CA /* whichones.wav */; };
+		E00E74321ECFE812002725CA /* withtanks.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73921ECFE812002725CA /* withtanks.wav */; };
+		E00E74331ECFE812002725CA /* xwing.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73931ECFE812002725CA /* xwing.wav */; };
+		E00E74341ECFE812002725CA /* yayasuresure.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73941ECFE812002725CA /* yayasuresure.wav */; };
+		E00E74351ECFE812002725CA /* youchoosenottoplayit.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73951ECFE812002725CA /* youchoosenottoplayit.wav */; };
+		E00E74361ECFE812002725CA /* youhavefailed.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73961ECFE812002725CA /* youhavefailed.wav */; };
+		E00E74371ECFE812002725CA /* youmoron.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73971ECFE812002725CA /* youmoron.wav */; };
+		E00E74381ECFE812002725CA /* youreafuckingpussy.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73981ECFE812002725CA /* youreafuckingpussy.wav */; };
+		E00E74391ECFE812002725CA /* yourspecialdeathstar.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E73991ECFE812002725CA /* yourspecialdeathstar.wav */; };
+		E00E743A1ECFE812002725CA /* yousureaboutthat.wav in Resources */ = {isa = PBXBuildFile; fileRef = E00E739A1ECFE812002725CA /* yousureaboutthat.wav */; };
+		E00E743D1ECFE826002725CA /* AudioLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E00E743C1ECFE826002725CA /* AudioLabel.m */; };
+		E00E74401ECFE8FD002725CA /* AudioCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E00E743F1ECFE8FD002725CA /* AudioCell.m */; };
+		E00E74421ECFEB3B002725CA /* vince.png in Resources */ = {isa = PBXBuildFile; fileRef = E00E74411ECFEB3B002725CA /* vince.png */; };
+		E00E74461ECFEF9C002725CA /* ic_favorite_white_48pt_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E00E74431ECFEF9C002725CA /* ic_favorite_white_48pt_2x.png */; };
+		E00E74471ECFEF9C002725CA /* ic_favorite_white_48pt_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E00E74441ECFEF9C002725CA /* ic_favorite_white_48pt_3x.png */; };
+		E00E74481ECFEF9C002725CA /* ic_favorite_white_48pt.png in Resources */ = {isa = PBXBuildFile; fileRef = E00E74451ECFEF9C002725CA /* ic_favorite_white_48pt.png */; };
+		E00E744C1ECFEFAB002725CA /* ic_favorite_border_white_48pt_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E00E74491ECFEFAB002725CA /* ic_favorite_border_white_48pt_2x.png */; };
+		E00E744D1ECFEFAB002725CA /* ic_favorite_border_white_48pt_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E00E744A1ECFEFAB002725CA /* ic_favorite_border_white_48pt_3x.png */; };
+		E00E744E1ECFEFAB002725CA /* ic_favorite_border_white_48pt.png in Resources */ = {isa = PBXBuildFile; fileRef = E00E744B1ECFEFAB002725CA /* ic_favorite_border_white_48pt.png */; };
+		E00E74601ED00229002725CA /* vince-app2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E00E744F1ED00229002725CA /* vince-app2x.png */; };
+		E00E74611ED00229002725CA /* vince-app3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E00E74501ED00229002725CA /* vince-app3x.png */; };
+		E00E74621ED00229002725CA /* vince-iPadApp.png in Resources */ = {isa = PBXBuildFile; fileRef = E00E74511ED00229002725CA /* vince-iPadApp.png */; };
+		E00E74631ED00229002725CA /* vince-iPadApp2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E00E74521ED00229002725CA /* vince-iPadApp2x.png */; };
+		E00E74641ED00229002725CA /* vince-iPadNotifications.png in Resources */ = {isa = PBXBuildFile; fileRef = E00E74531ED00229002725CA /* vince-iPadNotifications.png */; };
+		E00E74651ED00229002725CA /* vince-iPadNotifications2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E00E74541ED00229002725CA /* vince-iPadNotifications2x.png */; };
+		E00E74661ED00229002725CA /* vince-iPadPro2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E00E74551ED00229002725CA /* vince-iPadPro2x.png */; };
+		E00E74671ED00229002725CA /* vince-iPadSettings.png in Resources */ = {isa = PBXBuildFile; fileRef = E00E74561ED00229002725CA /* vince-iPadSettings.png */; };
+		E00E74681ED00229002725CA /* vince-iPadSettings2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E00E74571ED00229002725CA /* vince-iPadSettings2x.png */; };
+		E00E74691ED00229002725CA /* vince-iPadSpotlight.png in Resources */ = {isa = PBXBuildFile; fileRef = E00E74581ED00229002725CA /* vince-iPadSpotlight.png */; };
+		E00E746A1ED00229002725CA /* vince-iPadSpotlight2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E00E74591ED00229002725CA /* vince-iPadSpotlight2x.png */; };
+		E00E746B1ED00229002725CA /* vince-notification3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E00E745A1ED00229002725CA /* vince-notification3x.png */; };
+		E00E746C1ED00229002725CA /* vince-notificationx2.png in Resources */ = {isa = PBXBuildFile; fileRef = E00E745B1ED00229002725CA /* vince-notificationx2.png */; };
+		E00E746D1ED00229002725CA /* vince-spotlight2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E00E745C1ED00229002725CA /* vince-spotlight2x.png */; };
+		E00E746E1ED00229002725CA /* vince-spotlight3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E00E745D1ED00229002725CA /* vince-spotlight3x.png */; };
+		E00E746F1ED00229002725CA /* vince-spotlightSettings2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E00E745E1ED00229002725CA /* vince-spotlightSettings2x.png */; };
+		E00E74701ED00229002725CA /* vince-spotlightSettings3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E00E745F1ED00229002725CA /* vince-spotlightSettings3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E00E72E01ECFE7E5002725CA /* Salt Powered Robot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Salt Powered Robot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E00E72E41ECFE7E5002725CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E00E72E61ECFE7E5002725CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E00E72E71ECFE7E5002725CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E00E72E91ECFE7E5002725CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E00E72EA1ECFE7E5002725CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E00E72ED1ECFE7E5002725CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E00E72EF1ECFE7E5002725CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E00E72F21ECFE7E5002725CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E00E72F41ECFE7E5002725CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E00E72FB1ECFE812002725CA /* a40k.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = a40k.wav; sourceTree = "<group>"; };
+		E00E72FC1ECFE812002725CA /* a247365.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = a247365.wav; sourceTree = "<group>"; };
+		E00E72FD1ECFE812002725CA /* admititsbroken.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = admititsbroken.wav; sourceTree = "<group>"; };
+		E00E72FE1ECFE812002725CA /* allbitchasses.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = allbitchasses.wav; sourceTree = "<group>"; };
+		E00E72FF1ECFE812002725CA /* allfuckshit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = allfuckshit.wav; sourceTree = "<group>"; };
+		E00E73001ECFE812002725CA /* andhonestly.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = andhonestly.wav; sourceTree = "<group>"; };
+		E00E73011ECFE812002725CA /* answerthat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = answerthat.wav; sourceTree = "<group>"; };
+		E00E73021ECFE812002725CA /* anthony.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = anthony.wav; sourceTree = "<group>"; };
+		E00E73031ECFE812002725CA /* armada.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = armada.wav; sourceTree = "<group>"; };
+		E00E73041ECFE812002725CA /* atackwing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = atackwing.wav; sourceTree = "<group>"; };
+		E00E73051ECFE812002725CA /* becauseifocus.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = becauseifocus.wav; sourceTree = "<group>"; };
+		E00E73061ECFE812002725CA /* becauseofmyopinions.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = becauseofmyopinions.wav; sourceTree = "<group>"; };
+		E00E73071ECFE812002725CA /* beenawhile.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beenawhile.wav; sourceTree = "<group>"; };
+		E00E73081ECFE812002725CA /* beingangry.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beingangry.wav; sourceTree = "<group>"; };
+		E00E73091ECFE812002725CA /* bemenaboutit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bemenaboutit.wav; sourceTree = "<group>"; };
+		E00E730A1ECFE812002725CA /* bestimperialguard.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bestimperialguard.wav; sourceTree = "<group>"; };
+		E00E730B1ECFE812002725CA /* bitchass.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bitchass.wav; sourceTree = "<group>"; };
+		E00E730C1ECFE812002725CA /* blocksofpeasants.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = blocksofpeasants.wav; sourceTree = "<group>"; };
+		E00E730D1ECFE812002725CA /* calmthefuckdown.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = calmthefuckdown.wav; sourceTree = "<group>"; };
+		E00E730E1ECFE812002725CA /* cannotwin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cannotwin.wav; sourceTree = "<group>"; };
+		E00E730F1ECFE812002725CA /* chillthefuckout.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chillthefuckout.wav; sourceTree = "<group>"; };
+		E00E73101ECFE812002725CA /* clearly.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clearly.wav; sourceTree = "<group>"; };
+		E00E73111ECFE812002725CA /* comeafterabrokemf.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = comeafterabrokemf.wav; sourceTree = "<group>"; };
+		E00E73121ECFE812002725CA /* congradulations.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = congradulations.wav; sourceTree = "<group>"; };
+		E00E73131ECFE812002725CA /* didntcount.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = didntcount.wav; sourceTree = "<group>"; };
+		E00E73141ECFE812002725CA /* donthaveaproblem.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = donthaveaproblem.wav; sourceTree = "<group>"; };
+		E00E73151ECFE812002725CA /* droppods.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = droppods.wav; sourceTree = "<group>"; };
+		E00E73161ECFE812002725CA /* dumbfuckingmechanic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dumbfuckingmechanic.wav; sourceTree = "<group>"; };
+		E00E73171ECFE812002725CA /* everyplayereverylist.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = everyplayereverylist.wav; sourceTree = "<group>"; };
+		E00E73181ECFE812002725CA /* everywednesday.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = everywednesday.wav; sourceTree = "<group>"; };
+		E00E73191ECFE812002725CA /* excuse.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = excuse.wav; sourceTree = "<group>"; };
+		E00E731A1ECFE812002725CA /* factionloyal.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = factionloyal.wav; sourceTree = "<group>"; };
+		E00E731B1ECFE812002725CA /* failedaleadershipcheck.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = failedaleadershipcheck.wav; sourceTree = "<group>"; };
+		E00E731C1ECFE812002725CA /* fantasy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fantasy.wav; sourceTree = "<group>"; };
+		E00E731D1ECFE812002725CA /* fewpeoplehavedonethat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fewpeoplehavedonethat.wav; sourceTree = "<group>"; };
+		E00E731E1ECFE812002725CA /* fluff.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fluff.wav; sourceTree = "<group>"; };
+		E00E731F1ECFE812002725CA /* fortifications.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fortifications.wav; sourceTree = "<group>"; };
+		E00E73201ECFE812002725CA /* fuckinghobbit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fuckinghobbit.wav; sourceTree = "<group>"; };
+		E00E73211ECFE812002725CA /* fuckingmoron.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fuckingmoron.wav; sourceTree = "<group>"; };
+		E00E73221ECFE812002725CA /* fuckingmurderedyou.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fuckingmurderedyou.wav; sourceTree = "<group>"; };
+		E00E73231ECFE812002725CA /* fuckingstupid.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fuckingstupid.wav; sourceTree = "<group>"; };
+		E00E73241ECFE812002725CA /* fuckoff.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fuckoff.wav; sourceTree = "<group>"; };
+		E00E73251ECFE812002725CA /* fuckoff2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fuckoff2.wav; sourceTree = "<group>"; };
+		E00E73261ECFE812002725CA /* fuckshit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fuckshit.wav; sourceTree = "<group>"; };
+		E00E73271ECFE812002725CA /* fuckyou.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fuckyou.wav; sourceTree = "<group>"; };
+		E00E73281ECFE812002725CA /* fuckyou3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fuckyou3.wav; sourceTree = "<group>"; };
+		E00E73291ECFE812002725CA /* fuckyou4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fuckyou4.wav; sourceTree = "<group>"; };
+		E00E732A1ECFE812002725CA /* fukingknowit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fukingknowit.wav; sourceTree = "<group>"; };
+		E00E732B1ECFE812002725CA /* getitforreal.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = getitforreal.wav; sourceTree = "<group>"; };
+		E00E732C1ECFE812002725CA /* giveafuck.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = giveafuck.wav; sourceTree = "<group>"; };
+		E00E732D1ECFE812002725CA /* havetobeabitch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = havetobeabitch.wav; sourceTree = "<group>"; };
+		E00E732E1ECFE812002725CA /* haveyoueverwon.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = haveyoueverwon.wav; sourceTree = "<group>"; };
+		E00E732F1ECFE812002725CA /* haveyoueverwonbest.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = haveyoueverwonbest.wav; sourceTree = "<group>"; };
+		E00E73301ECFE812002725CA /* helldrakesaregood.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = helldrakesaregood.wav; sourceTree = "<group>"; };
+		E00E73311ECFE812002725CA /* howboutwetalkaboutthat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = howboutwetalkaboutthat.wav; sourceTree = "<group>"; };
+		E00E73321ECFE812002725CA /* howiknowimright.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = howiknowimright.wav; sourceTree = "<group>"; };
+		E00E73331ECFE812002725CA /* howthefuck.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = howthefuck.wav; sourceTree = "<group>"; };
+		E00E73341ECFE812002725CA /* huhuhu.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = huhuhu.wav; sourceTree = "<group>"; };
+		E00E73351ECFE812002725CA /* iamsittingdown.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = iamsittingdown.wav; sourceTree = "<group>"; };
+		E00E73361ECFE812002725CA /* idontalkshit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = idontalkshit.wav; sourceTree = "<group>"; };
+		E00E73371ECFE812002725CA /* idontlikeit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = idontlikeit.wav; sourceTree = "<group>"; };
+		E00E73381ECFE812002725CA /* ifthereisnofight.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ifthereisnofight.wav; sourceTree = "<group>"; };
+		E00E73391ECFE812002725CA /* ihaveagtwin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ihaveagtwin.wav; sourceTree = "<group>"; };
+		E00E733A1ECFE812002725CA /* iknowmore.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = iknowmore.wav; sourceTree = "<group>"; };
+		E00E733B1ECFE812002725CA /* iknowmore2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = iknowmore2.wav; sourceTree = "<group>"; };
+		E00E733C1ECFE812002725CA /* iknowwhatitsliketowin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = iknowwhatitsliketowin.wav; sourceTree = "<group>"; };
+		E00E733D1ECFE812002725CA /* imfine.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = imfine.wav; sourceTree = "<group>"; };
+		E00E733E1ECFE812002725CA /* imsure.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = imsure.wav; sourceTree = "<group>"; };
+		E00E733F1ECFE812002725CA /* inmyeyes.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = inmyeyes.wav; sourceTree = "<group>"; };
+		E00E73401ECFE812002725CA /* ithinkyouarewrong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ithinkyouarewrong.wav; sourceTree = "<group>"; };
+		E00E73411ECFE812002725CA /* itsnotaquestionforme.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = itsnotaquestionforme.wav; sourceTree = "<group>"; };
+		E00E73421ECFE812002725CA /* itwas6thed.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = itwas6thed.wav; sourceTree = "<group>"; };
+		E00E73431ECFE812002725CA /* iwon.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = iwon.wav; sourceTree = "<group>"; };
+		E00E73441ECFE812002725CA /* justchecking.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = justchecking.wav; sourceTree = "<group>"; };
+		E00E73451ECFE812002725CA /* justone.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = justone.wav; sourceTree = "<group>"; };
+		E00E73461ECFE812002725CA /* keepittofacts.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = keepittofacts.wav; sourceTree = "<group>"; };
+		E00E73471ECFE812002725CA /* lasttimeweplayed.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lasttimeweplayed.wav; sourceTree = "<group>"; };
+		E00E73481ECFE812002725CA /* legendneverdies.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = legendneverdies.wav; sourceTree = "<group>"; };
+		E00E73491ECFE812002725CA /* likeyourargument.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = likeyourargument.wav; sourceTree = "<group>"; };
+		E00E734A1ECFE812002725CA /* literallynobody.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = literallynobody.wav; sourceTree = "<group>"; };
+		E00E734B1ECFE812002725CA /* loserforme.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = loserforme.wav; sourceTree = "<group>"; };
+		E00E734C1ECFE812002725CA /* makesyouafuckboi.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = makesyouafuckboi.wav; sourceTree = "<group>"; };
+		E00E734D1ECFE812002725CA /* makingbullshitup.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = makingbullshitup.wav; sourceTree = "<group>"; };
+		E00E734E1ECFE812002725CA /* mordhiem.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = mordhiem.wav; sourceTree = "<group>"; };
+		E00E734F1ECFE812002725CA /* morethanone.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = morethanone.wav; sourceTree = "<group>"; };
+		E00E73501ECFE812002725CA /* namethem.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = namethem.wav; sourceTree = "<group>"; };
+		E00E73511ECFE812002725CA /* necromunda.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = necromunda.wav; sourceTree = "<group>"; };
+		E00E73521ECFE812002725CA /* netlists.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = netlists.wav; sourceTree = "<group>"; };
+		E00E73531ECFE812002725CA /* neveronceseenit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = neveronceseenit.wav; sourceTree = "<group>"; };
+		E00E73541ECFE812002725CA /* noneareanybetter.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = noneareanybetter.wav; sourceTree = "<group>"; };
+		E00E73551ECFE812002725CA /* nononono.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = nononono.wav; sourceTree = "<group>"; };
+		E00E73561ECFE812002725CA /* nonulldeployinwarmachine.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = nonulldeployinwarmachine.wav; sourceTree = "<group>"; };
+		E00E73571ECFE812002725CA /* nooneeverthanthat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = nooneeverthanthat.wav; sourceTree = "<group>"; };
+		E00E73581ECFE812002725CA /* notbetterthanyou.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = notbetterthanyou.wav; sourceTree = "<group>"; };
+		E00E73591ECFE812002725CA /* notgoodenoughtowin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = notgoodenoughtowin.wav; sourceTree = "<group>"; };
+		E00E735A1ECFE812002725CA /* notheyfuckingwerent.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = notheyfuckingwerent.wav; sourceTree = "<group>"; };
+		E00E735B1ECFE812002725CA /* nothingtodo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = nothingtodo.wav; sourceTree = "<group>"; };
+		E00E735C1ECFE812002725CA /* notonesingleother.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = notonesingleother.wav; sourceTree = "<group>"; };
+		E00E735D1ECFE812002725CA /* notwrong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = notwrong.wav; sourceTree = "<group>"; };
+		E00E735E1ECFE812002725CA /* onlywayhecanwingames.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = onlywayhecanwingames.wav; sourceTree = "<group>"; };
+		E00E735F1ECFE812002725CA /* overpowered.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = overpowered.wav; sourceTree = "<group>"; };
+		E00E73601ECFE812002725CA /* overpowered2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = overpowered2.wav; sourceTree = "<group>"; };
+		E00E73611ECFE812002725CA /* overpoweredshit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = overpoweredshit.wav; sourceTree = "<group>"; };
+		E00E73621ECFE812002725CA /* ownaps4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ownaps4.wav; sourceTree = "<group>"; };
+		E00E73631ECFE812002725CA /* paul.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = paul.wav; sourceTree = "<group>"; };
+		E00E73641ECFE812002725CA /* pickyourbattles.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pickyourbattles.wav; sourceTree = "<group>"; };
+		E00E73651ECFE812002725CA /* playdroppods.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = playdroppods.wav; sourceTree = "<group>"; };
+		E00E73661ECFE812002725CA /* playfantasy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = playfantasy.wav; sourceTree = "<group>"; };
+		E00E73671ECFE812002725CA /* playingempire.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = playingempire.wav; sourceTree = "<group>"; };
+		E00E73681ECFE812002725CA /* playingwolfstar.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = playingwolfstar.wav; sourceTree = "<group>"; };
+		E00E73691ECFE812002725CA /* playtau.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = playtau.wav; sourceTree = "<group>"; };
+		E00E736A1ECFE812002725CA /* provemewrong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = provemewrong.wav; sourceTree = "<group>"; };
+		E00E736B1ECFE812002725CA /* realfuckingspecial.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = realfuckingspecial.wav; sourceTree = "<group>"; };
+		E00E736C1ECFE812002725CA /* reallyarescrub.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = reallyarescrub.wav; sourceTree = "<group>"; };
+		E00E736D1ECFE812002725CA /* realquick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = realquick.wav; sourceTree = "<group>"; };
+		E00E736E1ECFE812002725CA /* rtwin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rtwin.wav; sourceTree = "<group>"; };
+		E00E736F1ECFE812002725CA /* running.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = running.wav; sourceTree = "<group>"; };
+		E00E73701ECFE812002725CA /* saidit5times.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = saidit5times.wav; sourceTree = "<group>"; };
+		E00E73711ECFE812002725CA /* saltisapartofmylife.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = saltisapartofmylife.wav; sourceTree = "<group>"; };
+		E00E73721ECFE812002725CA /* shittylittlearmy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shittylittlearmy.wav; sourceTree = "<group>"; };
+		E00E73731ECFE812002725CA /* shutthefuckup.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shutthefuckup.wav; sourceTree = "<group>"; };
+		E00E73741ECFE812002725CA /* shutthefuckup2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shutthefuckup2.wav; sourceTree = "<group>"; };
+		E00E73751ECFE812002725CA /* soichoosenotto.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = soichoosenotto.wav; sourceTree = "<group>"; };
+		E00E73761ECFE812002725CA /* sook.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sook.wav; sourceTree = "<group>"; };
+		E00E73771ECFE812002725CA /* supposedtobeimpressive.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = supposedtobeimpressive.wav; sourceTree = "<group>"; };
+		E00E73781ECFE812002725CA /* sureyourerealhappy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sureyourerealhappy.wav; sourceTree = "<group>"; };
+		E00E73791ECFE812002725CA /* talkingshit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = talkingshit.wav; sourceTree = "<group>"; };
+		E00E737A1ECFE812002725CA /* talkingshitabouttallpeople.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = talkingshitabouttallpeople.wav; sourceTree = "<group>"; };
+		E00E737B1ECFE812002725CA /* tellmewhy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tellmewhy.wav; sourceTree = "<group>"; };
+		E00E737C1ECFE812002725CA /* telltheworld.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = telltheworld.wav; sourceTree = "<group>"; };
+		E00E737D1ECFE812002725CA /* tempestusscions.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tempestusscions.wav; sourceTree = "<group>"; };
+		E00E737E1ECFE812002725CA /* terianpieces.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = terianpieces.wav; sourceTree = "<group>"; };
+		E00E737F1ECFE812002725CA /* thatsbasiclogic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = thatsbasiclogic.wav; sourceTree = "<group>"; };
+		E00E73801ECFE812002725CA /* thatsjustfuckingwrong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = thatsjustfuckingwrong.wav; sourceTree = "<group>"; };
+		E00E73811ECFE812002725CA /* thatsnotdefeat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = thatsnotdefeat.wav; sourceTree = "<group>"; };
+		E00E73821ECFE812002725CA /* thatwhatyouresaying.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = thatwhatyouresaying.wav; sourceTree = "<group>"; };
+		E00E73831ECFE812002725CA /* theyneverdidit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = theyneverdidit.wav; sourceTree = "<group>"; };
+		E00E73841ECFE812002725CA /* thingsyournotfamiliar.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = thingsyournotfamiliar.wav; sourceTree = "<group>"; };
+		E00E73851ECFE812002725CA /* thowsomenamesout.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = thowsomenamesout.wav; sourceTree = "<group>"; };
+		E00E73861ECFE812002725CA /* underpowered.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = underpowered.wav; sourceTree = "<group>"; };
+		E00E73871ECFE812002725CA /* wasntgonnagothere.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wasntgonnagothere.wav; sourceTree = "<group>"; };
+		E00E73881ECFE812002725CA /* watchingotherpeoplewin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = watchingotherpeoplewin.wav; sourceTree = "<group>"; };
+		E00E73891ECFE812002725CA /* welluhhhhhhhh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = welluhhhhhhhh.wav; sourceTree = "<group>"; };
+		E00E738A1ECFE812002725CA /* wetied.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wetied.wav; sourceTree = "<group>"; };
+		E00E738B1ECFE812002725CA /* whatargument.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = whatargument.wav; sourceTree = "<group>"; };
+		E00E738C1ECFE812002725CA /* whatfaction.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = whatfaction.wav; sourceTree = "<group>"; };
+		E00E738D1ECFE812002725CA /* whatlist.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = whatlist.wav; sourceTree = "<group>"; };
+		E00E738E1ECFE812002725CA /* whatsitlikefromthebottom.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = whatsitlikefromthebottom.wav; sourceTree = "<group>"; };
+		E00E738F1ECFE812002725CA /* wheredidyouendupontables.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = wheredidyouendupontables.wav; sourceTree = "<group>"; };
+		E00E73901ECFE812002725CA /* whereithaseverexisted.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = whereithaseverexisted.wav; sourceTree = "<group>"; };
+		E00E73911ECFE812002725CA /* whichones.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = whichones.wav; sourceTree = "<group>"; };
+		E00E73921ECFE812002725CA /* withtanks.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = withtanks.wav; sourceTree = "<group>"; };
+		E00E73931ECFE812002725CA /* xwing.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = xwing.wav; sourceTree = "<group>"; };
+		E00E73941ECFE812002725CA /* yayasuresure.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = yayasuresure.wav; sourceTree = "<group>"; };
+		E00E73951ECFE812002725CA /* youchoosenottoplayit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = youchoosenottoplayit.wav; sourceTree = "<group>"; };
+		E00E73961ECFE812002725CA /* youhavefailed.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = youhavefailed.wav; sourceTree = "<group>"; };
+		E00E73971ECFE812002725CA /* youmoron.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = youmoron.wav; sourceTree = "<group>"; };
+		E00E73981ECFE812002725CA /* youreafuckingpussy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = youreafuckingpussy.wav; sourceTree = "<group>"; };
+		E00E73991ECFE812002725CA /* yourspecialdeathstar.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = yourspecialdeathstar.wav; sourceTree = "<group>"; };
+		E00E739A1ECFE812002725CA /* yousureaboutthat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = yousureaboutthat.wav; sourceTree = "<group>"; };
+		E00E743B1ECFE826002725CA /* AudioLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioLabel.h; sourceTree = "<group>"; };
+		E00E743C1ECFE826002725CA /* AudioLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioLabel.m; sourceTree = "<group>"; };
+		E00E743E1ECFE8FD002725CA /* AudioCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioCell.h; sourceTree = "<group>"; };
+		E00E743F1ECFE8FD002725CA /* AudioCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioCell.m; sourceTree = "<group>"; };
+		E00E74411ECFEB3B002725CA /* vince.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vince.png; sourceTree = "<group>"; };
+		E00E74431ECFEF9C002725CA /* ic_favorite_white_48pt_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_favorite_white_48pt_2x.png; sourceTree = "<group>"; };
+		E00E74441ECFEF9C002725CA /* ic_favorite_white_48pt_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_favorite_white_48pt_3x.png; sourceTree = "<group>"; };
+		E00E74451ECFEF9C002725CA /* ic_favorite_white_48pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_favorite_white_48pt.png; sourceTree = "<group>"; };
+		E00E74491ECFEFAB002725CA /* ic_favorite_border_white_48pt_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_favorite_border_white_48pt_2x.png; sourceTree = "<group>"; };
+		E00E744A1ECFEFAB002725CA /* ic_favorite_border_white_48pt_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_favorite_border_white_48pt_3x.png; sourceTree = "<group>"; };
+		E00E744B1ECFEFAB002725CA /* ic_favorite_border_white_48pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_favorite_border_white_48pt.png; sourceTree = "<group>"; };
+		E00E744F1ED00229002725CA /* vince-app2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vince-app2x.png"; sourceTree = "<group>"; };
+		E00E74501ED00229002725CA /* vince-app3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vince-app3x.png"; sourceTree = "<group>"; };
+		E00E74511ED00229002725CA /* vince-iPadApp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vince-iPadApp.png"; sourceTree = "<group>"; };
+		E00E74521ED00229002725CA /* vince-iPadApp2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vince-iPadApp2x.png"; sourceTree = "<group>"; };
+		E00E74531ED00229002725CA /* vince-iPadNotifications.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vince-iPadNotifications.png"; sourceTree = "<group>"; };
+		E00E74541ED00229002725CA /* vince-iPadNotifications2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vince-iPadNotifications2x.png"; sourceTree = "<group>"; };
+		E00E74551ED00229002725CA /* vince-iPadPro2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vince-iPadPro2x.png"; sourceTree = "<group>"; };
+		E00E74561ED00229002725CA /* vince-iPadSettings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vince-iPadSettings.png"; sourceTree = "<group>"; };
+		E00E74571ED00229002725CA /* vince-iPadSettings2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vince-iPadSettings2x.png"; sourceTree = "<group>"; };
+		E00E74581ED00229002725CA /* vince-iPadSpotlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vince-iPadSpotlight.png"; sourceTree = "<group>"; };
+		E00E74591ED00229002725CA /* vince-iPadSpotlight2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vince-iPadSpotlight2x.png"; sourceTree = "<group>"; };
+		E00E745A1ED00229002725CA /* vince-notification3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vince-notification3x.png"; sourceTree = "<group>"; };
+		E00E745B1ED00229002725CA /* vince-notificationx2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vince-notificationx2.png"; sourceTree = "<group>"; };
+		E00E745C1ED00229002725CA /* vince-spotlight2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vince-spotlight2x.png"; sourceTree = "<group>"; };
+		E00E745D1ED00229002725CA /* vince-spotlight3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vince-spotlight3x.png"; sourceTree = "<group>"; };
+		E00E745E1ED00229002725CA /* vince-spotlightSettings2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vince-spotlightSettings2x.png"; sourceTree = "<group>"; };
+		E00E745F1ED00229002725CA /* vince-spotlightSettings3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vince-spotlightSettings3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E00E72DD1ECFE7E5002725CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E00E72D71ECFE7E5002725CA = {
+			isa = PBXGroup;
+			children = (
+				E00E72E21ECFE7E5002725CA /* Salt Powered Robot */,
+				E00E72E11ECFE7E5002725CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E00E72E11ECFE7E5002725CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E00E72E01ECFE7E5002725CA /* Salt Powered Robot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E00E72E21ECFE7E5002725CA /* Salt Powered Robot */ = {
+			isa = PBXGroup;
+			children = (
+				E00E72FA1ECFE7FE002725CA /* Audio Files */,
+				E00E74411ECFEB3B002725CA /* vince.png */,
+				E00E744F1ED00229002725CA /* vince-app2x.png */,
+				E00E74501ED00229002725CA /* vince-app3x.png */,
+				E00E74511ED00229002725CA /* vince-iPadApp.png */,
+				E00E74521ED00229002725CA /* vince-iPadApp2x.png */,
+				E00E74531ED00229002725CA /* vince-iPadNotifications.png */,
+				E00E74541ED00229002725CA /* vince-iPadNotifications2x.png */,
+				E00E74551ED00229002725CA /* vince-iPadPro2x.png */,
+				E00E74561ED00229002725CA /* vince-iPadSettings.png */,
+				E00E74571ED00229002725CA /* vince-iPadSettings2x.png */,
+				E00E74581ED00229002725CA /* vince-iPadSpotlight.png */,
+				E00E74591ED00229002725CA /* vince-iPadSpotlight2x.png */,
+				E00E745A1ED00229002725CA /* vince-notification3x.png */,
+				E00E745B1ED00229002725CA /* vince-notificationx2.png */,
+				E00E745C1ED00229002725CA /* vince-spotlight2x.png */,
+				E00E745D1ED00229002725CA /* vince-spotlight3x.png */,
+				E00E745E1ED00229002725CA /* vince-spotlightSettings2x.png */,
+				E00E745F1ED00229002725CA /* vince-spotlightSettings3x.png */,
+				E00E74431ECFEF9C002725CA /* ic_favorite_white_48pt_2x.png */,
+				E00E74441ECFEF9C002725CA /* ic_favorite_white_48pt_3x.png */,
+				E00E74451ECFEF9C002725CA /* ic_favorite_white_48pt.png */,
+				E00E74491ECFEFAB002725CA /* ic_favorite_border_white_48pt_2x.png */,
+				E00E744A1ECFEFAB002725CA /* ic_favorite_border_white_48pt_3x.png */,
+				E00E744B1ECFEFAB002725CA /* ic_favorite_border_white_48pt.png */,
+				E00E72E61ECFE7E5002725CA /* AppDelegate.h */,
+				E00E72E71ECFE7E5002725CA /* AppDelegate.m */,
+				E00E72E91ECFE7E5002725CA /* ViewController.h */,
+				E00E72EA1ECFE7E5002725CA /* ViewController.m */,
+				E00E72EC1ECFE7E5002725CA /* Main.storyboard */,
+				E00E72EF1ECFE7E5002725CA /* Assets.xcassets */,
+				E00E72F11ECFE7E5002725CA /* LaunchScreen.storyboard */,
+				E00E72F41ECFE7E5002725CA /* Info.plist */,
+				E00E72E31ECFE7E5002725CA /* Supporting Files */,
+				E00E743B1ECFE826002725CA /* AudioLabel.h */,
+				E00E743C1ECFE826002725CA /* AudioLabel.m */,
+				E00E743E1ECFE8FD002725CA /* AudioCell.h */,
+				E00E743F1ECFE8FD002725CA /* AudioCell.m */,
+			);
+			path = "Salt Powered Robot";
+			sourceTree = "<group>";
+		};
+		E00E72E31ECFE7E5002725CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E00E72E41ECFE7E5002725CA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E00E72FA1ECFE7FE002725CA /* Audio Files */ = {
+			isa = PBXGroup;
+			children = (
+				E00E72FB1ECFE812002725CA /* a40k.wav */,
+				E00E72FC1ECFE812002725CA /* a247365.wav */,
+				E00E72FD1ECFE812002725CA /* admititsbroken.wav */,
+				E00E72FE1ECFE812002725CA /* allbitchasses.wav */,
+				E00E72FF1ECFE812002725CA /* allfuckshit.wav */,
+				E00E73001ECFE812002725CA /* andhonestly.wav */,
+				E00E73011ECFE812002725CA /* answerthat.wav */,
+				E00E73021ECFE812002725CA /* anthony.wav */,
+				E00E73031ECFE812002725CA /* armada.wav */,
+				E00E73041ECFE812002725CA /* atackwing.wav */,
+				E00E73051ECFE812002725CA /* becauseifocus.wav */,
+				E00E73061ECFE812002725CA /* becauseofmyopinions.wav */,
+				E00E73071ECFE812002725CA /* beenawhile.wav */,
+				E00E73081ECFE812002725CA /* beingangry.wav */,
+				E00E73091ECFE812002725CA /* bemenaboutit.wav */,
+				E00E730A1ECFE812002725CA /* bestimperialguard.wav */,
+				E00E730B1ECFE812002725CA /* bitchass.wav */,
+				E00E730C1ECFE812002725CA /* blocksofpeasants.wav */,
+				E00E730D1ECFE812002725CA /* calmthefuckdown.wav */,
+				E00E730E1ECFE812002725CA /* cannotwin.wav */,
+				E00E730F1ECFE812002725CA /* chillthefuckout.wav */,
+				E00E73101ECFE812002725CA /* clearly.wav */,
+				E00E73111ECFE812002725CA /* comeafterabrokemf.wav */,
+				E00E73121ECFE812002725CA /* congradulations.wav */,
+				E00E73131ECFE812002725CA /* didntcount.wav */,
+				E00E73141ECFE812002725CA /* donthaveaproblem.wav */,
+				E00E73151ECFE812002725CA /* droppods.wav */,
+				E00E73161ECFE812002725CA /* dumbfuckingmechanic.wav */,
+				E00E73171ECFE812002725CA /* everyplayereverylist.wav */,
+				E00E73181ECFE812002725CA /* everywednesday.wav */,
+				E00E73191ECFE812002725CA /* excuse.wav */,
+				E00E731A1ECFE812002725CA /* factionloyal.wav */,
+				E00E731B1ECFE812002725CA /* failedaleadershipcheck.wav */,
+				E00E731C1ECFE812002725CA /* fantasy.wav */,
+				E00E731D1ECFE812002725CA /* fewpeoplehavedonethat.wav */,
+				E00E731E1ECFE812002725CA /* fluff.wav */,
+				E00E731F1ECFE812002725CA /* fortifications.wav */,
+				E00E73201ECFE812002725CA /* fuckinghobbit.wav */,
+				E00E73211ECFE812002725CA /* fuckingmoron.wav */,
+				E00E73221ECFE812002725CA /* fuckingmurderedyou.wav */,
+				E00E73231ECFE812002725CA /* fuckingstupid.wav */,
+				E00E73241ECFE812002725CA /* fuckoff.wav */,
+				E00E73251ECFE812002725CA /* fuckoff2.wav */,
+				E00E73261ECFE812002725CA /* fuckshit.wav */,
+				E00E73271ECFE812002725CA /* fuckyou.wav */,
+				E00E73281ECFE812002725CA /* fuckyou3.wav */,
+				E00E73291ECFE812002725CA /* fuckyou4.wav */,
+				E00E732A1ECFE812002725CA /* fukingknowit.wav */,
+				E00E732B1ECFE812002725CA /* getitforreal.wav */,
+				E00E732C1ECFE812002725CA /* giveafuck.wav */,
+				E00E732D1ECFE812002725CA /* havetobeabitch.wav */,
+				E00E732E1ECFE812002725CA /* haveyoueverwon.wav */,
+				E00E732F1ECFE812002725CA /* haveyoueverwonbest.wav */,
+				E00E73301ECFE812002725CA /* helldrakesaregood.wav */,
+				E00E73311ECFE812002725CA /* howboutwetalkaboutthat.wav */,
+				E00E73321ECFE812002725CA /* howiknowimright.wav */,
+				E00E73331ECFE812002725CA /* howthefuck.wav */,
+				E00E73341ECFE812002725CA /* huhuhu.wav */,
+				E00E73351ECFE812002725CA /* iamsittingdown.wav */,
+				E00E73361ECFE812002725CA /* idontalkshit.wav */,
+				E00E73371ECFE812002725CA /* idontlikeit.wav */,
+				E00E73381ECFE812002725CA /* ifthereisnofight.wav */,
+				E00E73391ECFE812002725CA /* ihaveagtwin.wav */,
+				E00E733A1ECFE812002725CA /* iknowmore.wav */,
+				E00E733B1ECFE812002725CA /* iknowmore2.wav */,
+				E00E733C1ECFE812002725CA /* iknowwhatitsliketowin.wav */,
+				E00E733D1ECFE812002725CA /* imfine.wav */,
+				E00E733E1ECFE812002725CA /* imsure.wav */,
+				E00E733F1ECFE812002725CA /* inmyeyes.wav */,
+				E00E73401ECFE812002725CA /* ithinkyouarewrong.wav */,
+				E00E73411ECFE812002725CA /* itsnotaquestionforme.wav */,
+				E00E73421ECFE812002725CA /* itwas6thed.wav */,
+				E00E73431ECFE812002725CA /* iwon.wav */,
+				E00E73441ECFE812002725CA /* justchecking.wav */,
+				E00E73451ECFE812002725CA /* justone.wav */,
+				E00E73461ECFE812002725CA /* keepittofacts.wav */,
+				E00E73471ECFE812002725CA /* lasttimeweplayed.wav */,
+				E00E73481ECFE812002725CA /* legendneverdies.wav */,
+				E00E73491ECFE812002725CA /* likeyourargument.wav */,
+				E00E734A1ECFE812002725CA /* literallynobody.wav */,
+				E00E734B1ECFE812002725CA /* loserforme.wav */,
+				E00E734C1ECFE812002725CA /* makesyouafuckboi.wav */,
+				E00E734D1ECFE812002725CA /* makingbullshitup.wav */,
+				E00E734E1ECFE812002725CA /* mordhiem.wav */,
+				E00E734F1ECFE812002725CA /* morethanone.wav */,
+				E00E73501ECFE812002725CA /* namethem.wav */,
+				E00E73511ECFE812002725CA /* necromunda.wav */,
+				E00E73521ECFE812002725CA /* netlists.wav */,
+				E00E73531ECFE812002725CA /* neveronceseenit.wav */,
+				E00E73541ECFE812002725CA /* noneareanybetter.wav */,
+				E00E73551ECFE812002725CA /* nononono.wav */,
+				E00E73561ECFE812002725CA /* nonulldeployinwarmachine.wav */,
+				E00E73571ECFE812002725CA /* nooneeverthanthat.wav */,
+				E00E73581ECFE812002725CA /* notbetterthanyou.wav */,
+				E00E73591ECFE812002725CA /* notgoodenoughtowin.wav */,
+				E00E735A1ECFE812002725CA /* notheyfuckingwerent.wav */,
+				E00E735B1ECFE812002725CA /* nothingtodo.wav */,
+				E00E735C1ECFE812002725CA /* notonesingleother.wav */,
+				E00E735D1ECFE812002725CA /* notwrong.wav */,
+				E00E735E1ECFE812002725CA /* onlywayhecanwingames.wav */,
+				E00E735F1ECFE812002725CA /* overpowered.wav */,
+				E00E73601ECFE812002725CA /* overpowered2.wav */,
+				E00E73611ECFE812002725CA /* overpoweredshit.wav */,
+				E00E73621ECFE812002725CA /* ownaps4.wav */,
+				E00E73631ECFE812002725CA /* paul.wav */,
+				E00E73641ECFE812002725CA /* pickyourbattles.wav */,
+				E00E73651ECFE812002725CA /* playdroppods.wav */,
+				E00E73661ECFE812002725CA /* playfantasy.wav */,
+				E00E73671ECFE812002725CA /* playingempire.wav */,
+				E00E73681ECFE812002725CA /* playingwolfstar.wav */,
+				E00E73691ECFE812002725CA /* playtau.wav */,
+				E00E736A1ECFE812002725CA /* provemewrong.wav */,
+				E00E736B1ECFE812002725CA /* realfuckingspecial.wav */,
+				E00E736C1ECFE812002725CA /* reallyarescrub.wav */,
+				E00E736D1ECFE812002725CA /* realquick.wav */,
+				E00E736E1ECFE812002725CA /* rtwin.wav */,
+				E00E736F1ECFE812002725CA /* running.wav */,
+				E00E73701ECFE812002725CA /* saidit5times.wav */,
+				E00E73711ECFE812002725CA /* saltisapartofmylife.wav */,
+				E00E73721ECFE812002725CA /* shittylittlearmy.wav */,
+				E00E73731ECFE812002725CA /* shutthefuckup.wav */,
+				E00E73741ECFE812002725CA /* shutthefuckup2.wav */,
+				E00E73751ECFE812002725CA /* soichoosenotto.wav */,
+				E00E73761ECFE812002725CA /* sook.wav */,
+				E00E73771ECFE812002725CA /* supposedtobeimpressive.wav */,
+				E00E73781ECFE812002725CA /* sureyourerealhappy.wav */,
+				E00E73791ECFE812002725CA /* talkingshit.wav */,
+				E00E737A1ECFE812002725CA /* talkingshitabouttallpeople.wav */,
+				E00E737B1ECFE812002725CA /* tellmewhy.wav */,
+				E00E737C1ECFE812002725CA /* telltheworld.wav */,
+				E00E737D1ECFE812002725CA /* tempestusscions.wav */,
+				E00E737E1ECFE812002725CA /* terianpieces.wav */,
+				E00E737F1ECFE812002725CA /* thatsbasiclogic.wav */,
+				E00E73801ECFE812002725CA /* thatsjustfuckingwrong.wav */,
+				E00E73811ECFE812002725CA /* thatsnotdefeat.wav */,
+				E00E73821ECFE812002725CA /* thatwhatyouresaying.wav */,
+				E00E73831ECFE812002725CA /* theyneverdidit.wav */,
+				E00E73841ECFE812002725CA /* thingsyournotfamiliar.wav */,
+				E00E73851ECFE812002725CA /* thowsomenamesout.wav */,
+				E00E73861ECFE812002725CA /* underpowered.wav */,
+				E00E73871ECFE812002725CA /* wasntgonnagothere.wav */,
+				E00E73881ECFE812002725CA /* watchingotherpeoplewin.wav */,
+				E00E73891ECFE812002725CA /* welluhhhhhhhh.wav */,
+				E00E738A1ECFE812002725CA /* wetied.wav */,
+				E00E738B1ECFE812002725CA /* whatargument.wav */,
+				E00E738C1ECFE812002725CA /* whatfaction.wav */,
+				E00E738D1ECFE812002725CA /* whatlist.wav */,
+				E00E738E1ECFE812002725CA /* whatsitlikefromthebottom.wav */,
+				E00E738F1ECFE812002725CA /* wheredidyouendupontables.wav */,
+				E00E73901ECFE812002725CA /* whereithaseverexisted.wav */,
+				E00E73911ECFE812002725CA /* whichones.wav */,
+				E00E73921ECFE812002725CA /* withtanks.wav */,
+				E00E73931ECFE812002725CA /* xwing.wav */,
+				E00E73941ECFE812002725CA /* yayasuresure.wav */,
+				E00E73951ECFE812002725CA /* youchoosenottoplayit.wav */,
+				E00E73961ECFE812002725CA /* youhavefailed.wav */,
+				E00E73971ECFE812002725CA /* youmoron.wav */,
+				E00E73981ECFE812002725CA /* youreafuckingpussy.wav */,
+				E00E73991ECFE812002725CA /* yourspecialdeathstar.wav */,
+				E00E739A1ECFE812002725CA /* yousureaboutthat.wav */,
+			);
+			name = "Audio Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E00E72DF1ECFE7E5002725CA /* Salt Powered Robot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E00E72F71ECFE7E5002725CA /* Build configuration list for PBXNativeTarget "Salt Powered Robot" */;
+			buildPhases = (
+				E00E72DC1ECFE7E5002725CA /* Sources */,
+				E00E72DD1ECFE7E5002725CA /* Frameworks */,
+				E00E72DE1ECFE7E5002725CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Salt Powered Robot";
+			productName = "Salt Powered Robot";
+			productReference = E00E72E01ECFE7E5002725CA /* Salt Powered Robot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E00E72D81ECFE7E5002725CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Garrett Mulroney";
+				TargetAttributes = {
+					E00E72DF1ECFE7E5002725CA = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = V94WSL4BXQ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E00E72DB1ECFE7E5002725CA /* Build configuration list for PBXProject "Salt Powered Robot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E00E72D71ECFE7E5002725CA;
+			productRefGroup = E00E72E11ECFE7E5002725CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E00E72DF1ECFE7E5002725CA /* Salt Powered Robot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E00E72DE1ECFE7E5002725CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E00E740A1ECFE812002725CA /* provemewrong.wav in Resources */,
+				E00E73D91ECFE812002725CA /* ihaveagtwin.wav in Resources */,
+				E00E73B61ECFE812002725CA /* dumbfuckingmechanic.wav in Resources */,
+				E00E74361ECFE812002725CA /* youhavefailed.wav in Resources */,
+				E00E74651ED00229002725CA /* vince-iPadNotifications2x.png in Resources */,
+				E00E74461ECFEF9C002725CA /* ic_favorite_white_48pt_2x.png in Resources */,
+				E00E742C1ECFE812002725CA /* whatfaction.wav in Resources */,
+				E00E73F11ECFE812002725CA /* necromunda.wav in Resources */,
+				E00E739C1ECFE812002725CA /* a247365.wav in Resources */,
+				E00E73DA1ECFE812002725CA /* iknowmore.wav in Resources */,
+				E00E73F91ECFE812002725CA /* notgoodenoughtowin.wav in Resources */,
+				E00E74471ECFEF9C002725CA /* ic_favorite_white_48pt_3x.png in Resources */,
+				E00E73D81ECFE812002725CA /* ifthereisnofight.wav in Resources */,
+				E00E73AB1ECFE812002725CA /* bitchass.wav in Resources */,
+				E00E744E1ECFEFAB002725CA /* ic_favorite_border_white_48pt.png in Resources */,
+				E00E746F1ED00229002725CA /* vince-spotlightSettings2x.png in Resources */,
+				E00E73C61ECFE812002725CA /* fuckshit.wav in Resources */,
+				E00E73B81ECFE812002725CA /* everywednesday.wav in Resources */,
+				E00E73B31ECFE812002725CA /* didntcount.wav in Resources */,
+				E00E73AA1ECFE812002725CA /* bestimperialguard.wav in Resources */,
+				E00E73CF1ECFE812002725CA /* haveyoueverwonbest.wav in Resources */,
+				E00E74681ED00229002725CA /* vince-iPadSettings2x.png in Resources */,
+				E00E74371ECFE812002725CA /* youmoron.wav in Resources */,
+				E00E73EC1ECFE812002725CA /* makesyouafuckboi.wav in Resources */,
+				E00E74101ECFE812002725CA /* saidit5times.wav in Resources */,
+				E00E73D61ECFE812002725CA /* idontalkshit.wav in Resources */,
+				E00E739B1ECFE812002725CA /* a40k.wav in Resources */,
+				E00E74111ECFE812002725CA /* saltisapartofmylife.wav in Resources */,
+				E00E746A1ED00229002725CA /* vince-iPadSpotlight2x.png in Resources */,
+				E00E739E1ECFE812002725CA /* allbitchasses.wav in Resources */,
+				E00E73BA1ECFE812002725CA /* factionloyal.wav in Resources */,
+				E00E73AF1ECFE812002725CA /* chillthefuckout.wav in Resources */,
+				E00E74421ECFEB3B002725CA /* vince.png in Resources */,
+				E00E73F61ECFE812002725CA /* nonulldeployinwarmachine.wav in Resources */,
+				E00E74691ED00229002725CA /* vince-iPadSpotlight.png in Resources */,
+				E00E73C01ECFE812002725CA /* fuckinghobbit.wav in Resources */,
+				E00E73FF1ECFE812002725CA /* overpowered.wav in Resources */,
+				E00E741C1ECFE812002725CA /* telltheworld.wav in Resources */,
+				E00E73CB1ECFE812002725CA /* getitforreal.wav in Resources */,
+				E00E740D1ECFE812002725CA /* realquick.wav in Resources */,
+				E00E74291ECFE812002725CA /* welluhhhhhhhh.wav in Resources */,
+				E00E73A41ECFE812002725CA /* atackwing.wav in Resources */,
+				E00E73BB1ECFE812002725CA /* failedaleadershipcheck.wav in Resources */,
+				E00E73BE1ECFE812002725CA /* fluff.wav in Resources */,
+				E00E74271ECFE812002725CA /* wasntgonnagothere.wav in Resources */,
+				E00E73A21ECFE812002725CA /* anthony.wav in Resources */,
+				E00E73E41ECFE812002725CA /* justchecking.wav in Resources */,
+				E00E73CA1ECFE812002725CA /* fukingknowit.wav in Resources */,
+				E00E74661ED00229002725CA /* vince-iPadPro2x.png in Resources */,
+				E00E73DB1ECFE812002725CA /* iknowmore2.wav in Resources */,
+				E00E73AE1ECFE812002725CA /* cannotwin.wav in Resources */,
+				E00E74631ED00229002725CA /* vince-iPadApp2x.png in Resources */,
+				E00E73EE1ECFE812002725CA /* mordhiem.wav in Resources */,
+				E00E73C51ECFE812002725CA /* fuckoff2.wav in Resources */,
+				E00E73FE1ECFE812002725CA /* onlywayhecanwingames.wav in Resources */,
+				E00E73C21ECFE812002725CA /* fuckingmurderedyou.wav in Resources */,
+				E00E74011ECFE812002725CA /* overpoweredshit.wav in Resources */,
+				E00E73C31ECFE812002725CA /* fuckingstupid.wav in Resources */,
+				E00E74191ECFE812002725CA /* talkingshit.wav in Resources */,
+				E00E746C1ED00229002725CA /* vince-notificationx2.png in Resources */,
+				E00E741A1ECFE812002725CA /* talkingshitabouttallpeople.wav in Resources */,
+				E00E74261ECFE812002725CA /* underpowered.wav in Resources */,
+				E00E739D1ECFE812002725CA /* admititsbroken.wav in Resources */,
+				E00E74311ECFE812002725CA /* whichones.wav in Resources */,
+				E00E744C1ECFEFAB002725CA /* ic_favorite_border_white_48pt_2x.png in Resources */,
+				E00E73E71ECFE812002725CA /* lasttimeweplayed.wav in Resources */,
+				E00E73E31ECFE812002725CA /* iwon.wav in Resources */,
+				E00E73CD1ECFE812002725CA /* havetobeabitch.wav in Resources */,
+				E00E742B1ECFE812002725CA /* whatargument.wav in Resources */,
+				E00E744D1ECFEFAB002725CA /* ic_favorite_border_white_48pt_3x.png in Resources */,
+				E00E73F81ECFE812002725CA /* notbetterthanyou.wav in Resources */,
+				E00E73E91ECFE812002725CA /* likeyourargument.wav in Resources */,
+				E00E73B51ECFE812002725CA /* droppods.wav in Resources */,
+				E00E73D31ECFE812002725CA /* howthefuck.wav in Resources */,
+				E00E73A51ECFE812002725CA /* becauseifocus.wav in Resources */,
+				E00E740F1ECFE812002725CA /* running.wav in Resources */,
+				E00E73A91ECFE812002725CA /* bemenaboutit.wav in Resources */,
+				E00E742D1ECFE812002725CA /* whatlist.wav in Resources */,
+				E00E73DE1ECFE812002725CA /* imsure.wav in Resources */,
+				E00E74351ECFE812002725CA /* youchoosenottoplayit.wav in Resources */,
+				E00E73B21ECFE812002725CA /* congradulations.wav in Resources */,
+				E00E73C81ECFE812002725CA /* fuckyou3.wav in Resources */,
+				E00E73DD1ECFE812002725CA /* imfine.wav in Resources */,
+				E00E746B1ED00229002725CA /* vince-notification3x.png in Resources */,
+				E00E741E1ECFE812002725CA /* terianpieces.wav in Resources */,
+				E00E74071ECFE812002725CA /* playingempire.wav in Resources */,
+				E00E73D01ECFE812002725CA /* helldrakesaregood.wav in Resources */,
+				E00E73E51ECFE812002725CA /* justone.wav in Resources */,
+				E00E742F1ECFE812002725CA /* wheredidyouendupontables.wav in Resources */,
+				E00E741D1ECFE812002725CA /* tempestusscions.wav in Resources */,
+				E00E72F31ECFE7E5002725CA /* LaunchScreen.storyboard in Resources */,
+				E00E746D1ED00229002725CA /* vince-spotlight2x.png in Resources */,
+				E00E73DC1ECFE812002725CA /* iknowwhatitsliketowin.wav in Resources */,
+				E00E74231ECFE812002725CA /* theyneverdidit.wav in Resources */,
+				E00E740C1ECFE812002725CA /* reallyarescrub.wav in Resources */,
+				E00E73D11ECFE812002725CA /* howboutwetalkaboutthat.wav in Resources */,
+				E00E739F1ECFE812002725CA /* allfuckshit.wav in Resources */,
+				E00E73F21ECFE812002725CA /* netlists.wav in Resources */,
+				E00E73EA1ECFE812002725CA /* literallynobody.wav in Resources */,
+				E00E741B1ECFE812002725CA /* tellmewhy.wav in Resources */,
+				E00E746E1ED00229002725CA /* vince-spotlight3x.png in Resources */,
+				E00E73FB1ECFE812002725CA /* nothingtodo.wav in Resources */,
+				E00E73D51ECFE812002725CA /* iamsittingdown.wav in Resources */,
+				E00E73AC1ECFE812002725CA /* blocksofpeasants.wav in Resources */,
+				E00E73B71ECFE812002725CA /* everyplayereverylist.wav in Resources */,
+				E00E73C71ECFE812002725CA /* fuckyou.wav in Resources */,
+				E00E74381ECFE812002725CA /* youreafuckingpussy.wav in Resources */,
+				E00E74331ECFE812002725CA /* xwing.wav in Resources */,
+				E00E73A81ECFE812002725CA /* beingangry.wav in Resources */,
+				E00E73FD1ECFE812002725CA /* notwrong.wav in Resources */,
+				E00E74621ED00229002725CA /* vince-iPadApp.png in Resources */,
+				E00E73C91ECFE812002725CA /* fuckyou4.wav in Resources */,
+				E00E74281ECFE812002725CA /* watchingotherpeoplewin.wav in Resources */,
+				E00E73E01ECFE812002725CA /* ithinkyouarewrong.wav in Resources */,
+				E00E74001ECFE812002725CA /* overpowered2.wav in Resources */,
+				E00E742A1ECFE812002725CA /* wetied.wav in Resources */,
+				E00E743A1ECFE812002725CA /* yousureaboutthat.wav in Resources */,
+				E00E74151ECFE812002725CA /* soichoosenotto.wav in Resources */,
+				E00E73B41ECFE812002725CA /* donthaveaproblem.wav in Resources */,
+				E00E73D71ECFE812002725CA /* idontlikeit.wav in Resources */,
+				E00E73CC1ECFE812002725CA /* giveafuck.wav in Resources */,
+				E00E74181ECFE812002725CA /* sureyourerealhappy.wav in Resources */,
+				E00E73FC1ECFE812002725CA /* notonesingleother.wav in Resources */,
+				E00E74241ECFE812002725CA /* thingsyournotfamiliar.wav in Resources */,
+				E00E74131ECFE812002725CA /* shutthefuckup.wav in Resources */,
+				E00E740E1ECFE812002725CA /* rtwin.wav in Resources */,
+				E00E74041ECFE812002725CA /* pickyourbattles.wav in Resources */,
+				E00E74391ECFE812002725CA /* yourspecialdeathstar.wav in Resources */,
+				E00E73A01ECFE812002725CA /* andhonestly.wav in Resources */,
+				E00E73F31ECFE812002725CA /* neveronceseenit.wav in Resources */,
+				E00E73A31ECFE812002725CA /* armada.wav in Resources */,
+				E00E73D41ECFE812002725CA /* huhuhu.wav in Resources */,
+				E00E73BC1ECFE812002725CA /* fantasy.wav in Resources */,
+				E00E74161ECFE812002725CA /* sook.wav in Resources */,
+				E00E74641ED00229002725CA /* vince-iPadNotifications.png in Resources */,
+				E00E74201ECFE812002725CA /* thatsjustfuckingwrong.wav in Resources */,
+				E00E74031ECFE812002725CA /* paul.wav in Resources */,
+				E00E73F51ECFE812002725CA /* nononono.wav in Resources */,
+				E00E73A11ECFE812002725CA /* answerthat.wav in Resources */,
+				E00E73B01ECFE812002725CA /* clearly.wav in Resources */,
+				E00E74481ECFEF9C002725CA /* ic_favorite_white_48pt.png in Resources */,
+				E00E74061ECFE812002725CA /* playfantasy.wav in Resources */,
+				E00E74301ECFE812002725CA /* whereithaseverexisted.wav in Resources */,
+				E00E72F01ECFE7E5002725CA /* Assets.xcassets in Resources */,
+				E00E74601ED00229002725CA /* vince-app2x.png in Resources */,
+				E00E73DF1ECFE812002725CA /* inmyeyes.wav in Resources */,
+				E00E73AD1ECFE812002725CA /* calmthefuckdown.wav in Resources */,
+				E00E73EB1ECFE812002725CA /* loserforme.wav in Resources */,
+				E00E73C41ECFE812002725CA /* fuckoff.wav in Resources */,
+				E00E73ED1ECFE812002725CA /* makingbullshitup.wav in Resources */,
+				E00E74221ECFE812002725CA /* thatwhatyouresaying.wav in Resources */,
+				E00E73C11ECFE812002725CA /* fuckingmoron.wav in Resources */,
+				E00E73E21ECFE812002725CA /* itwas6thed.wav in Resources */,
+				E00E74091ECFE812002725CA /* playtau.wav in Resources */,
+				E00E742E1ECFE812002725CA /* whatsitlikefromthebottom.wav in Resources */,
+				E00E73EF1ECFE812002725CA /* morethanone.wav in Resources */,
+				E00E73B91ECFE812002725CA /* excuse.wav in Resources */,
+				E00E74611ED00229002725CA /* vince-app3x.png in Resources */,
+				E00E74701ED00229002725CA /* vince-spotlightSettings3x.png in Resources */,
+				E00E73E81ECFE812002725CA /* legendneverdies.wav in Resources */,
+				E00E73E11ECFE812002725CA /* itsnotaquestionforme.wav in Resources */,
+				E00E741F1ECFE812002725CA /* thatsbasiclogic.wav in Resources */,
+				E00E73BF1ECFE812002725CA /* fortifications.wav in Resources */,
+				E00E73B11ECFE812002725CA /* comeafterabrokemf.wav in Resources */,
+				E00E74321ECFE812002725CA /* withtanks.wav in Resources */,
+				E00E73A61ECFE812002725CA /* becauseofmyopinions.wav in Resources */,
+				E00E73D21ECFE812002725CA /* howiknowimright.wav in Resources */,
+				E00E73BD1ECFE812002725CA /* fewpeoplehavedonethat.wav in Resources */,
+				E00E73A71ECFE812002725CA /* beenawhile.wav in Resources */,
+				E00E73FA1ECFE812002725CA /* notheyfuckingwerent.wav in Resources */,
+				E00E740B1ECFE812002725CA /* realfuckingspecial.wav in Resources */,
+				E00E74121ECFE812002725CA /* shittylittlearmy.wav in Resources */,
+				E00E74141ECFE812002725CA /* shutthefuckup2.wav in Resources */,
+				E00E72EE1ECFE7E5002725CA /* Main.storyboard in Resources */,
+				E00E73F41ECFE812002725CA /* noneareanybetter.wav in Resources */,
+				E00E73CE1ECFE812002725CA /* haveyoueverwon.wav in Resources */,
+				E00E73F01ECFE812002725CA /* namethem.wav in Resources */,
+				E00E74171ECFE812002725CA /* supposedtobeimpressive.wav in Resources */,
+				E00E73F71ECFE812002725CA /* nooneeverthanthat.wav in Resources */,
+				E00E74671ED00229002725CA /* vince-iPadSettings.png in Resources */,
+				E00E74251ECFE812002725CA /* thowsomenamesout.wav in Resources */,
+				E00E74051ECFE812002725CA /* playdroppods.wav in Resources */,
+				E00E74211ECFE812002725CA /* thatsnotdefeat.wav in Resources */,
+				E00E74021ECFE812002725CA /* ownaps4.wav in Resources */,
+				E00E73E61ECFE812002725CA /* keepittofacts.wav in Resources */,
+				E00E74081ECFE812002725CA /* playingwolfstar.wav in Resources */,
+				E00E74341ECFE812002725CA /* yayasuresure.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E00E72DC1ECFE7E5002725CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E00E72EB1ECFE7E5002725CA /* ViewController.m in Sources */,
+				E00E74401ECFE8FD002725CA /* AudioCell.m in Sources */,
+				E00E743D1ECFE826002725CA /* AudioLabel.m in Sources */,
+				E00E72E81ECFE7E5002725CA /* AppDelegate.m in Sources */,
+				E00E72E51ECFE7E5002725CA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E00E72EC1ECFE7E5002725CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E00E72ED1ECFE7E5002725CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E00E72F11ECFE7E5002725CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E00E72F21ECFE7E5002725CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E00E72F51ECFE7E5002725CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E00E72F61ECFE7E5002725CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E00E72F81ECFE7E5002725CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V94WSL4BXQ;
+				INFOPLIST_FILE = "Salt Powered Robot/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.garrett.Salt-Powered-Robot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E00E72F91ECFE7E5002725CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V94WSL4BXQ;
+				INFOPLIST_FILE = "Salt Powered Robot/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.garrett.Salt-Powered-Robot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E00E72DB1ECFE7E5002725CA /* Build configuration list for PBXProject "Salt Powered Robot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E00E72F51ECFE7E5002725CA /* Debug */,
+				E00E72F61ECFE7E5002725CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E00E72F71ECFE7E5002725CA /* Build configuration list for PBXNativeTarget "Salt Powered Robot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E00E72F81ECFE7E5002725CA /* Debug */,
+				E00E72F91ECFE7E5002725CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E00E72D81ECFE7E5002725CA /* Project object */;
+}
